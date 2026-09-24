@@ -1,0 +1,166 @@
+body{
+       margin: 0;
+        padding: 0;
+        width:100%;
+        height:100%;
+      }
+      h1{
+        margin: 0;
+      }
+      #menuPrincipal{
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-color: black;
+        background-position: center;
+        text-align: center;
+      }
+      #menuPbotoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+      }
+      .botãoMenuP {
+        background-Color: hwb(0 5% 95% / 0.9098039215686274);
+        color: white;
+        width: 200px;
+        height: 100px;
+        border: none;
+      }
+      .branco {
+        color: white;
+        border: none;
+      }
+      #menuOpcoes {
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-color: black;
+        background-position: center;
+        text-align: center;
+      }
+      .botãoMenuO {
+        background-Color: hwb(0 5% 95% / 0.9098039215686274);
+        color: white;
+        width: 200px;
+        height: 100px;
+        border: none;
+      }
+      #introducao {
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-color: black;
+        background-position: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      #entradaD {
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-color: black;
+        background-position: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .botaoM{
+        background-Color: hwb(0 5% 95% / 0.9098039215686274);
+        color: white;
+        width: 100px;
+        height: 50px;
+        border: none;
+      }
+      #espaço{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px
+      }
+      #nomeJogador{
+        background-Color: hwb(0 5% 95% / 0.9098039215686274);
+        color: white;
+        width: 150px;
+        height: 75px;
+        border: none;
+        text-align: center;
+      }
+      #jogador{
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        border:none;
+        margin: 0;
+        text-align: center;
+        position:absolute;
+        left: 50px;
+        top: 50px;
+      }
+      #inimigo1{
+        background-Color: red;
+        color: black;
+        width: 25px;
+        height: 25px;
+        border:none;
+        margin: 0;
+        text-align: center;
+        position:absolute;
+        left: 50px;
+        top: 50px;
+      }
+      #bloco1{
+        background-image: url("chaoVoador02.png");
+        background-size:100% 100%;
+        width: 100px;
+        height: 20px;
+        left: 150px;
+        top: 400px;
+      }
+      #bloco2{
+        background-image: url("chaoVoador02.png");
+        background-size: 100% 100%;
+        width: 100px;
+        height: 20px;
+        left: 50px;
+        top: 350px;
+      }
+      #bloco3{
+        background-image: url("chaoVoador02.png");
+        background-size: 100% 100%;
+        background-position: center;
+        width: 100px;
+        height: 20px;
+        left: 200px;
+        top: 300px;
+      }
+      .bloco {
+        border: none;
+        margin: 0;
+        position: absolute;
+        background-image: url("chaoVoador02.png");
+        background-repeat: no-repeat;
+      }
+     #tutorial{
+       background-image: url("mapMovimento01.png");
+       width: 100%;
+       min-height: 100vh;
+       background-size: 100% 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+     }
+     #paraBaixo{
+       position: absolute;
+       bottom: 20px;
+       left: 0;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+     }
